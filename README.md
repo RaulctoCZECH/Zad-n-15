@@ -1,43 +1,55 @@
-Tetranacciho Posloupnost - Projektová Dokumentace
-Úvod
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetranacciho Posloupnost</title>
+</head>
+<body>
 
-Tato školní práce se zabývá generováním Tetranacciho posloupnosti, což je matematická posloupnost, odvozená ze známější Fibonacciho posloupnosti. Tetranacciho posloupnost je definována čtyřmi počátečními čísly a každý následující člen je součtem čtyř předchozích členů.
-Použití
+<h1>Tetranacciho Posloupnost</h1>
 
-    Počáteční Čísla Tetranacciho Posloupnosti:
-    Uživatel je vyzván k zadání prvních čtyř čísel Tetranacciho posloupnosti. Tyto hodnoty jsou nezbytné pro inicializaci generátoru posloupnosti.
+<p>Tento projekt se zaměřuje na generování Tetranacciho posloupnosti, matematické posloupnosti odvozené od Fibonacciho posloupnosti. Tetranacciho posloupnost je definována čtyřmi počátečními čísly, kde každý následující člen je součtem čtyř předchozích členů.</p>
 
-    Délka Generované Posloupnosti:
-    Uživatel dále zadává délku Tetranacciho posloupnosti, kterou chce generovat. Minimální délka pro smysluplný výstup je 12.
+<h2>Použití</h2>
 
-    Generování a Výstup:
-    Po zadání počátečních hodnot a délky program vygeneruje Tetranacciho posloupnost a vypíše ji na konzoli.
+<ol>
+    <li><strong>Počáteční Čísla Tetranacciho Posloupnosti:</strong>
+        <ul>
+            <li>Zadejte první čtyři čísla Tetranacciho posloupnosti oddělená mezerou.</li>
+        </ul>
+    </li>
+    <li><strong>Délka Generované Posloupnosti:</strong>
+        <ul>
+            <li>Zadejte délku sekvence Tetranacciho posloupnosti (minimálně 12).</li>
+        </ul>
+    </li>
+    <li><strong>Generování a Výstup:</strong>
+        <ul>
+            <li>Po zadání počátečních hodnot a délky se generuje Tetranacciho posloupnost.</li>
+        </ul>
+    </li>
+    <li><strong>Opakování nebo Ukončení:</strong>
+        <ul>
+            <li>Chcete pokračovat (p) nebo ukončit program (k)?</li>
+        </ul>
+    </li>
+</ol>
 
-    Opakování nebo Ukončení:
-    Uživatel má možnost pokračovat zadáváním nových hodnot pro generování dalších posloupností nebo ukončit program.
+<h2>Příklad Použití</h2>
 
-Příklad Použití
-
-    Zadání Počátečních Hodnot:
-
-    plaintext
-
+<pre>
 Zadejte první čtyři čísla Tetranacciho posloupnosti oddělená mezerou: 0 1 1 2
-
-Zadání Délky Posloupnosti:
-
-plaintext
-
 Zadejte délku sekvence Tetranacciho posloupnosti (minimálně 12): 15
-
-Výstup:
-
-plaintext
-
 Vygenerovaná Tetranacciho posloupnost: 0 1 1 2 4 8 15 29 56 108 208 401 773 1490 2872
-
-Pokračování nebo Ukončení:
-
-plaintext
-
 Chcete pokračovat (p) nebo ukončit program (k)? p
+</pre>
+
+<h2>Podpora a Zpětná Vazba</h2>
+
+<p>Pro dotazy, problémy nebo nápady vytvořte issue v <a href="https://github.com/tvoj-uzivatelsky-jmeno/tetranacci-sequence/issues">repozitáři projektu</a>.</p>
+
+<p>Děkujeme za použití našeho programu!</p>
+
+</body>
+</html>
