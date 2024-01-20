@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tetranacciho Posloupnost</title>
 </head>
 <body>
 
+<h1>Tetranacciho Posloupnost</h1>
 
 <p>Tento projekt se zaměřuje na generování Tetranacciho posloupnosti, matematické posloupnosti odvozené od Fibonacciho posloupnosti. Tetranacciho posloupnost je definována čtyřmi počátečními čísly, kde každý následující člen je součtem čtyř předchozích členů.</p>
 
@@ -43,12 +43,6 @@ Zadejte délku sekvence Tetranacciho posloupnosti (minimálně 12): 15
 Vygenerovaná Tetranacciho posloupnost: 0 1 1 2 4 8 15 29 56 108 208 401 773 1490 2872
 Chcete pokračovat (p) nebo ukončit program (k)? p
 </pre>
-
-<h2>Podpora a Zpětná Vazba</h2>
-
-<p>Pro dotazy, problémy nebo nápady vytvořte issue v <a href="https://github.com/tvoj-uzivatelsky-jmeno/tetranacci-sequence/issues">repozitáři projektu</a>.</p>
-
-<p>Děkujeme za použití našeho programu!</p>
 
 </body>
 </html>
