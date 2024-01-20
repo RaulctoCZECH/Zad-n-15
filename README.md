@@ -7,7 +7,6 @@
 </head>
 <body>
 
-<h1>Tetranacciho Posloupnost</h1>
 
 <p>Tento projekt se zaměřuje na generování Tetranacciho posloupnosti, matematické posloupnosti odvozené od Fibonacciho posloupnosti. Tetranacciho posloupnost je definována čtyřmi počátečními čísly, kde každý následující člen je součtem čtyř předchozích členů.</p>
 
