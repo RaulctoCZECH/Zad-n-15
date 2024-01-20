@@ -3,7 +3,7 @@
 {
         BigInteger[] tetranacciStart = new BigInteger[4];
         bool validInput = false;
-+
+
         while (!validInput)
         {
             Console.Write("Zadejte první čtyři čísla Tetranacciho posloupnosti oddělená mezerou: ");
