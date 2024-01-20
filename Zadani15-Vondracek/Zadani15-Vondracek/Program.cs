@@ -1,6 +1,10 @@
-﻿using System.Numerics;
-    
+using System;
+using System.Numerics;
+
+class Program
 {
+    static void Main()
+    {
         BigInteger[] tetranacciStart = new BigInteger[4];
         bool validInput = false;
 
@@ -48,7 +52,8 @@
                 }
             }
 
-            // Vytvoření a vypsání Tetranacciho posloupnosti
+            // Vytvoření a vypsání Tetranacciho posloupnosti s různými barvami
+            Console.ForegroundColor = ConsoleColor.Green; // Nastaví barvu textu na zelenou
             BigInteger[] tetranacciSequence = new BigInteger[sequenceLength];
             for (int i = 0; i < 4; i++)
             {
@@ -59,16 +64,22 @@
             for (int i = 4; i < sequenceLength; i++)
             {
                 tetranacciSequence[i] = BigInteger.Add(BigInteger.Add(BigInteger.Add(tetranacciSequence[i - 1], tetranacciSequence[i - 2]), tetranacciSequence[i - 3]), tetranacciSequence[i - 4]);
+                
+                // Nastaví různé barvy pro každé číslo
+                Console.ForegroundColor = (ConsoleColor)((i % 14) + 1); // Modulo 14 zajistí opakování barev, +1 kvůli tomu, že ConsoleColor začíná od 1
+                
                 Console.Write(tetranacciSequence[i] + " ");
             }
 
+            Console.ResetColor(); // Obnoví výchozí barvy konzole
             Console.WriteLine(); // Oddělení výstupu pro lepší čitelnost
 
             // Kontrola zda uživatel chce pokračovat nebo ukončit program
             Console.Write("Chcete pokračovat (p) nebo ukončit program (k)? ");
             string choice = Console.ReadLine();
-            
+
             if (choice.ToLower() == "k")
                 continueGenerating = false;
         }
+    }
 }
